@@ -17,18 +17,44 @@ Bu proje, STM32F407VET6 mikrodenetleyici tabanlı, encoder geri beslemeli ve yü
 * **İşlemci:** STM32F407VET6 (Cortex-M4).
 * **Arayüzler:** Encoder sensör girişi, UART TTL (PL2303 uyumlu) haberleşme portu ve 9 adet genel amaçlı GPIO çıkışı.
 
-## 📂 Proje Yapısı
-* `/Design_Files`: Altium Designer şematik (.SchDoc) ve PCB (.PcbDoc) kaynak dosyaları.
-* `/Production`: Üretim için gerekli Gerber ve NC Drill dosyaları.
-* `Job2.PDF`: Tüm katmanları, şematikleri ve malzeme listesini (BOM) içeren kapsamlı teknik döküman.
+---
 
-## 📸 Görsel Sunum
-### Kartın 3D Görünümü
+## 📸 Görsel Sunum ve Tasarım Detayları
+
+### 1. Şematik Tasarımı
+Proje tasarımı, teknik dökümantasyonda detaylandırıldığı üzere modüler bloklar halinde kurgulanmıştır.
+
+**Güç Katı ve MCU Bağlantıları:**
+![Güç Katı](Images/schematic_power.jpg)
+*TPS5410D Buck Converter ve sistem güç dağıtım şematiği.*
+
+![MCU](Images/schematic_mcu.jpg)
+*STM32F407VET6 mikrodenetleyici ve temel bileşen bağlantıları.*
+
+**Sürücü ve Sensör Arayüzleri:**
+![Motor Sürücü](Images/schematic_motor_driver.jpg)
+*H-Bridge sürücü katı ve MOSFET anahtarlama mimarisi.*
+
+![Sensörler](Images/schematic_sensors_and_external_interfaces.png)
+*Encoder girişleri ve dış dünyaya açılan GPIO/Haberleşme portları.*
+
+### 2. PCB ve 3D Modelleme
+Tasarım, üretime hazır (DFM) standartlarında ve sinyal bütünlüğü korunarak 2 katmanlı olarak tamamlanmıştır.
+
+**Genel Görünüm:**
 ![Genel Görünüm](Images/pcb_perspective_render.jpg)
 
-### Katman Analizi (Üst ve Alt)
+**Katman Analizi:**
 | Üst Katman (Top View) | Alt Katman (Bottom View) |
 | :---: | :---: |
 | ![Top](Images/pcb_top_view.jpg) | ![Bottom](Images/pcb_bottom_view.jpg) |
 
 ---
+
+## 📂 Proje Yapısı
+* `/Design_Files`: Altium Designer şematik (.SchDoc) ve PCB (.PcbDoc) kaynak dosyaları.
+* `/Production`: Üretim için gerekli Gerber ve NC Drill dosyaları.
+* `Job2.PDF`: Tüm katmanları, şematikleri ve malzeme listesini (BOM) içeren kapsamlı teknik döküman.
+
+---
+*Bu proje profesyonel bir mühendislik portfolyosu amacıyla paylaşılmıştır.*
