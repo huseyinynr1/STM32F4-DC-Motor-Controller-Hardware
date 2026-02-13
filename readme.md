@@ -57,4 +57,3 @@ Tasarım, üretime hazır (DFM) standartlarında ve sinyal bütünlüğü koruna
 * `Job2.PDF`: Tüm katmanları, şematikleri ve malzeme listesini (BOM) içeren kapsamlı teknik döküman.
 
 ---
-*Bu proje profesyonel bir mühendislik portfolyosu amacıyla paylaşılmıştır.*
