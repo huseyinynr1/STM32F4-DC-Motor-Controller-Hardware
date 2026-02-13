@@ -1,0 +1,22 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [MotorController_STM32F4.PrjPcb]
+   Generated File[Motor_Controller.GTO]
+   Generated File[Motor_Controller.GTP]
+   Generated File[Motor_Controller.GTS]
+   Generated File[Motor_Controller.GTL]
+   Generated File[Motor_Controller.G1]
+   Generated File[Motor_Controller.G2]
+   Generated File[Motor_Controller.GBL]
+   Generated File[Motor_Controller.GBS]
+   Generated File[Motor_Controller.GBP]
+   Generated File[Motor_Controller.GBO]
+   Generated File[Motor_Controller.GM]
+   Generated File[Motor_Controller.EXTREP]
+   Generated File[Motor_Controller.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 18:20:42 On 13.02.2026

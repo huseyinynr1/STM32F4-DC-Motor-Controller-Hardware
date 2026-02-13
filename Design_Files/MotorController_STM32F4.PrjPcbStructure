@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=MCU.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=MCU.SchDoc|FileName=Motor_Controller.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=MCU.SchDoc|FileName=Power.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=MCU.SchDoc|FileName=Sensors_and_External_Interfaces.SchDoc|SheetNumber=4
