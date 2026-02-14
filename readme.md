@@ -39,7 +39,7 @@ Proje tasarımı, teknik dökümantasyonda detaylandırıldığı üzere modüle
 *Encoder girişleri ve dış dünyaya açılan GPIO/Haberleşme portları.*
 
 ### 2. PCB ve 3D Modelleme
-Tasarım, üretime hazır (DFM) standartlarında ve sinyal bütünlüğü korunarak 2 katmanlı olarak tamamlanmıştır.
+Tasarım, üretime hazır (DFM) standartlarında ve sinyal bütünlüğü korunarak 4 katmanlı olarak tamamlanmıştır.
 
 **Genel Görünüm:**
 ![Genel Görünüm](Images/pcb_perspective_render.jpg)
@@ -53,7 +53,8 @@ Tasarım, üretime hazır (DFM) standartlarında ve sinyal bütünlüğü koruna
 
 ## 📂 Proje Yapısı
 * `/Design_Files`: Altium Designer şematik (.SchDoc) ve PCB (.PcbDoc) kaynak dosyaları.
+* `/Documents`: Tüm katmanları, şematikleri ve malzeme listesini (BOM) içeren output job dosyaları.
+* `/Images`: Şematik ve PCB görüntülerini içeren kaynak dosyaları.
 * `/Production`: Üretim için gerekli Gerber ve NC Drill dosyaları.
-* `Job2.PDF`: Tüm katmanları, şematikleri ve malzeme listesini (BOM) içeren kapsamlı teknik döküman.
 
 ---
